@@ -434,8 +434,8 @@ class Tools:
     valid_extensions = [".c", ".cc", ".cpp", ".cxx", ".h", ".hpp", ".hxx",
                         ".m", ".mm"]
 
-    C_SYNTAX = ["C", "C Improved", "C99"]
-    CPP_SYNTAX = ["C++", "C++11", "C++ (Colorcoded)", "cuda-c++"]
+    C_SYNTAX = ["C", "C Improved", "C99", "C ST"]
+    CPP_SYNTAX = ["C++", "C++11", "C++ (Colorcoded)", "cuda-c++", "C++ ST"]
     OBJECTIVE_C_SYNTAX = ["Objective-C"]
     OBJECTIVE_CPP_SYNTAX = ["Objective-C++"]
     valid_syntax = C_SYNTAX + CPP_SYNTAX \
